@@ -1,0 +1,51 @@
+
+body {
+    margin: 0;
+
+    overflow: hidden; /* Скрывает прокрутку */
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+
+
+#map {
+    height: 68vh; /* Высота карты */
+    width: 68vh; /* Ширина карты */
+    position: fixed; /* Фиксированное позиционирование */
+    position: absolute; /* Устанавливаем абсолютное позиционирование для элемента */
+    top: 40%;           /* Сдвигаем элемент вниз на 50% высоты контейнера */
+    left: 50%;          /* Сдвигаем элемент вправо на 50% ширины контейнера */
+    transform: translate(-50%, -50%); /* Сдвигаем элемент обратно на половину его ширины и высоты */
+    z-index: 1000; /* Убедитесь, что карта поверх других элементов */
+}
+
+
+#continue{
+    background-color: #0008ff;
+	color: #fff;
+	/* background-image: radial-gradient(150% 160% at 50% 15%,#fff 0,transparent 30%); */
+	text-shadow: 0 0.0625rem 0.125rem #1a1a2e;
+
+	box-shadow: 0 0.275rem 1.125rem rgba(0,0,0,.25),inset 0 0.0625rem 0 hsla(0,0%,100%,.2),inset 0 -0.125rem 0 rgba(0,0,0,.3);
+	font-size: 130%;
+	font-style: italic;
+    background-image: radial-gradient(150% 160% at 50% 15%,#fff 0,transparent 30%); 
+	font-weight: 800;
+	border: none;
+	border-radius: 5vh;
+
+
+
+    height: 5vh; /* Высота карты */
+    width: 10%; /* Ширина карты */
+    position: fixed; /* Устанавливаем абсолютное позиционирование для элемента */
+    transition: 0.2s; 
+    bottom: 18vh; /* Отступ от нижнего края */
+    right: 45%; /* Отступ от правого края */
+    z-index: 1000; /* Убедитесь, что карта поверх других элементов */
+}
+
+#continue:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}

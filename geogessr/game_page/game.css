@@ -1,0 +1,61 @@
+
+body {
+    margin: 0;
+
+    overflow: hidden; /* Скрывает прокрутку */
+}
+#map {
+    height: 30vh; /* Высота карты */
+    width: 26%; /* Ширина карты */
+    position: fixed; /* Фиксированное позиционирование */
+    bottom: 9vh; /* Отступ от нижнего края */
+    right: 1%; /* Отступ от правого края */
+    z-index: 1000; /* Убедитесь, что карта поверх других элементов */
+    transition: 0.2s; 
+    opacity: 0.5;
+}
+#map:hover {
+    transform: scale(2);
+    bottom:24vh;
+    right: 14%;
+    opacity: 1;
+}
+
+#guess {
+
+    background-color: #0008ff;
+	color: #fff;
+	/* background-image: radial-gradient(150% 160% at 50% 15%,#fff 0,transparent 30%); */
+	text-shadow: 0 0.0625rem 0.125rem #1a1a2e;
+	width:8%;
+	box-shadow: 0 0.275rem 1.125rem rgba(0,0,0,.25),inset 0 0.0625rem 0 hsla(0,0%,100%,.2),inset 0 -0.125rem 0 rgba(0,0,0,.3);
+	font-size: 130%;
+	font-style: italic;
+    background-image: radial-gradient(150% 160% at 50% 15%,#fff 0,transparent 30%); 
+	font-weight: 800;
+	border: none;
+	border-radius: 5vh;
+
+
+
+
+    height: 5vh; /* Высота карты */
+    width: 26%; /* Ширина карты */
+    position: fixed; /* Фиксированное позиционирование */
+    bottom: 2vh; /* Отступ от нижнего края */
+    right: 1%; /* Отступ от правого края */
+    z-index: 1000; /* Убедитесь, что карта поверх других элементов */
+    transition: 0.2s; 
+    opacity: 0.5;
+}
+#guess:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#panorama {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    z-index: 500;
+}
