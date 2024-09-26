@@ -23,14 +23,14 @@ console.log(guess, ans);
 console.log(guess[0], guess[1])
 
 var guess_icon = L.icon({
-    iconUrl: '../images/geometka.png', // Путь к вашему изображению
+    iconUrl: '../service_images/geometka.png', // Путь к вашему изображению
     iconSize: [30, 30], // Размер иконки
     iconAnchor: [15, 30], // Точка привязки иконки
     popupAnchor: [-3, -76] // Точка привязки всплывающего окна
 });
 
 var ans_icon = L.icon({
-    iconUrl: '../images/finish.png', // Путь к вашему изображению
+    iconUrl: '../service_images/finish.png', // Путь к вашему изображению
     iconSize: [30, 30], // Размер иконки
     iconAnchor: [0, 30], // Точка привязки иконки
     popupAnchor: [-3, -76] // Точка привязки всплывающего окна
