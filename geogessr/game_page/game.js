@@ -112,7 +112,7 @@ window.onload = function() {
     
     pannellum.viewer('panorama', {
         "type": "equirectangular",
-        "panorama": '../58panos/'+lol_ponos[Math.floor(Math.random() * def_panos.length)],
+        "panorama": '../58lol/'+lol_ponos[Math.floor(Math.random() * def_panos.length)],
         "autoLoad": true
     }); 
 };
